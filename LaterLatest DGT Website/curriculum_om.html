@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="icon" href="./images/Logo.png"/>
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <title>OrBit | Orbital Mechanics</title>
+</head>
+
+<body>
+    <div class="landscape-warning">Sorry but mobile landscape is not supported by this website</div>
+    <div class="page-container">
+        <header>
+            <nav>
+                <a class="nav-logo" href="./index.html"><img src="./images/Logo.png" alt=""></a>
+                <div id="nav-toggle" src="https://via.placeholder.com/50" alt="">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                <ul class="nav-items">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="courses.html">Courses</a></li>
+                    <li><a href="history.html">History</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <ul id="nav-items-mobile" class="hide">
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="courses.html">Courses</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </header>
+        <main>
+            <section class="main_section_curriculum">
+                <div class="mainWrapContainer">
+                    <div class="mainWrapContainerHeaderBlock" id="m_wrap_cont">
+                        <div class="headerCurriculum"> <h1>Orbital Mechanics</h1> <p>Lesson 1</p></div>
+                        <div class="underHeaderText"><p>Orbital Mechanics is defined as ‘the application of ballistics and celestial mechanics to the practical problems concerning the motion of rockets and other spacecraft’ - but what does this mean in simple terms? Well, orbital mechanics is the study of how things move in space, or more specifically, how rockets move in space. In this brief lesson I’ll be going over how rockets get into space, how rockets stay in space, and different ways that rockets can move and get to cool places in space. In order to encourage a basic understanding of orbital mechanics, I’ll be starting off the discussion in regards to two dimensions, and then moving to three dimensions once a solid grasp is established.
+
+                            So, how do rockets get into space?
+                            
+                            Without going too far into the engineering of rockets (check out our other course!) rockets can make it into space using many methods. The most common method is, of course, burning propellant. Whether that be RP1 (refined petroleum) or literal antimatter, most rockets will get to space through expelling gas ‘out the back’. When a rocket is in flight, it first begins by moving upwards, directly towards ‘space’ as many people would call it. At this point, most people assume the rocket keeps going upwards until it reaches space, and then goes on to its next destination. This claim is in fact false! After rockets have gained enough vertical speed, they will slowly begin to pitch down to face the horizon. As they ascend, this means they get horizontal speed as well.</p></div>
+                    </div>
+                    <div class="mainWrapContainerImageBlockHeader" id="m_wrap_cont">
+                        <img src="./images/Curriculum/OrbitalMechanics/splash_om.png" alt="Moon" class="om_main" id="curriculum_image">
+                    </div>
+                </div>
+
+                <!-- Second Section -->
+
+               <!-- <div class="mainWrapContainerText">
+                    <div class="mainWrapTextContainer" id="m_wrap_cont_text">
+                        <p>
+                        </p>
+                    </div>
+                </div> Unused Div. Giant Block of Text. CSS code still exists to style it in case it is used in the future -->
+
+
+                <div class="mainWrapContainerImgText">
+                    <div class="mainWrapImgTextContainer" id="m_wrap_cont_img">
+                        <div class="ImgText"><p>If we can imagine the Earth as a 2D circle, with the ‘rocket’ being placed directly on top, vertical movement would mean that the rocket goes up, and then gravity shatters all its dreams of getting to space, and pulls it right back down. So how does it actually work, then? Well. As said, rockets will pitch sideways (imagine the same rocket from the same 2D sphere moving up and then sideways) in order to get horizontal motion. When the rocket has enough horizontal motion, it will fly in a parabolic path from its starting point to some point either to the left or right. Here’s the kicker: what if the rocket turned off its engines, and then instantly relit them right as it reached the top of this ‘parabola’, facing parallel to the horizon of the 2D circle planet below? Well, it would travel a tiny bit further forward, due to its horizontal velocity increasing. Now, what if it did a bit more? Its horizontal velocity, and thus ‘point of impact’ back on the planet would keep moving further, and further, and further until said point reaches past the curve of the planet’s horizon and loops ALL THE WAY back around! This is what is referred to as an ‘Orbit’ and it’s how spacecraft stay up in space. You can imagine the path of a spacecraft in orbit to be the same as drawing a circle. You start from one point, and move in a circular motion until you reach said starting point again. What’s most confusing about spacecraft orbits is that to change them, you do some pretty unconventional things. For instance, at apogee (the point in the orbit that’s furthest away from the planet you’re orbiting, ie. the highest), if you speed up (increase your velocity in the direction your spacecraft is already moving), the other side of your orbit is going to get further and further away, and end up looking like an oval! Due to gravity, the closer you are to the planet, the faster you move. When you swing a ball around your head, the smaller the radius is, the faster it will move! In the same way, the closer you are to the planet, the faster you move, and the further you are, the slower you move! Because speeding up at one point makes the other point move further from the planet, and the further away from the planet the slower, in essence you’re speeding up to slow down! See <a id="link" href="https://www.everythingrf.com/community/what-is-an-elliptical-orbit">here</a> for more details</p>
+
+                        </p></div>
+                    </div>
+                    <div class="mainWrapContainerImageBlock" id="m_wrap_cont">
+                        <img src="./images/Curriculum/OrbitalMechanics/diagram_1.png" alt="Moon" class="om_main" id="curriculum_image">
+                    </div>
+                </div>
+
+                <div class="mainWrapContainerImgText">
+                    <div class="mainWrapImgTextContainer" id="m_wrap_cont_img">
+                        <div class="ImgText"><p>When trying to get to another planet, such as Mars,
+                             you’ll need to use what’s called a ‘Hohmann Transfer Orbit’ if you want 
+                             to have the most efficient route. In simple terms, a Hohmann Transfer 
+                             is performed by speeding up at the closest point to the home planet, and 
+                             creating an elliptical orbit whose highest point is present on the orbit 
+                             line of the planet you’re trying to get to. The tricky part is getting the
+                             timing right - if you want the transfer to work, both your spaceship and the 
+                             target planet need to be in the same place at the same time (the tip of the 
+                             spacecraft’s orbit). See the gif provided for a more accurate depiction. When 
+                             your spacecraft is near the target planet, it will need to perform a ‘deceleration maneuver’, 
+                             or more simply put, a ‘capture burn’. This will ensure that the spacecraft slows 
+                             down enough in order to enter the orbit of the target planet, and thus can perform 
+                             all of its maneuvers needed. <br><br> In the next lesson we’ll be covering 
+                             aerobraking, lithobraking, and gravity slingshots. In short, how you can accelerate
+                            or stop very fast <i> without using any fuel at all! </i> Seem like 
+                             magic? Stay tuned! <br><br><b id="link" onclick="window.location='./curriculum_ss.html';">Next Course</b><br><br><h6>Image Credit: SpaceEngine, The Canadian Mars Society</h6></p></div>
+                    </div>
+                    <div class="mainWrapContainerImageBlock" id="m_wrap_cont">
+                        <img src="./images/Curriculum/OrbitalMechanics/gif.gif" alt="Moon" class="om_main" id="curriculum_image">
+                    </div>
+                </div>
+
+            </section>
+        </main>
+      <!--  <footer>
+            <p>© OrBit 2022</p>
+        </footer> -->
+    </div>
+    <script src="./js/global.js"></script>
+</body>
+
+</html>
+
